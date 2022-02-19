@@ -32,6 +32,12 @@ body{
     grid-column: 1/5;
 }
 
-
-
-
+.screen > input{
+     background:none;
+     color: inherit;
+     border: none;
+     padding: 0;
+     outline: inherit;
+     font-size: 50px;
+     width: 100%;
+    }
