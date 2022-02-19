@@ -64,24 +64,27 @@ body{
     background-color: #fffb88;
 }
 .btn-cal > .clean   {
-    background-color: #98f8ab;
+    background-color: #98f5f8;
 }
 
 .btn-cal :hover{
     transition-duration: 0.4s;
     background-color: #ffb497;
     color: white;
+    cursor:pointer;  /*cursor personalizado*/
 }
 
 .btn-clean :hover{
     transition-duration: 0.4s;
-    background-color: #66f789;
+    background-color: #2553ec; /* Color personalizado */
     color: white;
+    cursor:copy;  /*cursor personalizado*/
 }
 
 .btn-equal :hover{
     transition-duration: 0.4s;
-    background-color: #fffB59;
+    background-color: #66f789; /* Color personalizado*/
     color: rgb(14, 211, 24);
+    cursor:help;  /*cursor personalizado*/
 }
 
