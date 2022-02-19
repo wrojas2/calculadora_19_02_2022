@@ -24,3 +24,14 @@ body{
     grid-gap: 20px;
 }
 
+.screen{
+    background-color:#414141;
+    border-radius: 10px;
+    color: #57e8ff;
+    padding: 15px;
+    grid-column: 1/5;
+}
+
+
+
+
