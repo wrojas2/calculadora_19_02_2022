@@ -3,10 +3,24 @@ body{
     padding: 0;
 }
 .content-body{
-    background-color: #D0ECE7;
+    background-color: #1079f0;
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.content-calculator{
+    width: 400px;
+    height: 450px;
+    background-color: #aaaaaa;
+    border-radius: 10px;
+    box-shadow: 2px 1px 29px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 85px;
+    grid-gap: 20px;
+}
+
