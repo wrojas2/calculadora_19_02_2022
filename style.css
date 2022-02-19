@@ -41,3 +41,43 @@ body{
      font-size: 50px;
      width: 100%;
     }
+    
+.btn-cal-radius{
+    border-radius: 10px;
+}
+
+.btn-cal-radius > input{
+    border: 0;
+    height: 100%;
+    width: 100;
+    border-radius: 10px;
+    outline: none;
+    color: #7e7e7e;
+    font-size: 35px;
+}
+
+.btn-cal-radius > .equal {
+    background-color: #fffb88;
+}
+.btn-cal > .clean   {
+    background-color: #98f8ab;
+}
+
+.btn-cal :hover{
+    transition-duration: 0.4s;
+    background-color: #ffb497;
+    color: white;
+}
+
+.btn-clean :hover{
+    transition-duration: 0.4s;
+    background-color: #66f789;
+    color: white;
+}
+
+.btn-equal :hover{
+    transition-duration: 0.4s;
+    background-color: #fffB59;
+    color: black;
+}
+
