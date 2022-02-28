@@ -10,64 +10,75 @@
     <title>PROTOTIPO CALCULADORA</title>    
     <link rel="shortcut icon" href="icono.gif"  type="image/x-icon">   
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head>
 <body>
-    <div class="content-body">
+    <div class="content-body" name="form">
+    <form action="#" name="formulario">
       <div class="content-calculator">
           <div class="screen">
-              <input type="text" placeholder="0" disabled id="screen-result">
+              <input type="text" placeholder="0" disabled id="screen-result" name="datos">
           </div>
           <div class="btn-cal btn-cal-radius">
-            <input type="button" value="7" onclick="getdata(this)">
+            <input type="button" value="7">
           </div>
           <div class="btn-cal btn-cal-radius">
-            <input type="button" value="8" onclick="getdata(this)">
+            <input type="button" value="8">
           </div>
           <div class="btn-cal btn-cal-radius">
-            <input type="button" value="9" onclick="getdata(this)">
+            <input type="button" value="9" >
           </div>
           <div class="btn-cal btn-cal-radius">
-            <input type="button" value="+" onclick="getdata(this)">
+            <input type="button" value="+" >
           </div>
           <div class="btn-cal btn-cal-radius">
-            <input type="button" value="4" onclick="getdata(this)">
+            <input type="button" value="4" >
           </div>
           <div class="btn-cal btn-cal-radius">
-            <input type="button" value="5" onclick="getdata(this)">
+            <input type="button" value="5" >
           </div>
           <div class="btn-cal btn-cal-radius">
-            <input type="button" value="6" onclick="getdata(this)">
+            <input type="button" value="6" >
           </div>
           <div class="btn-cal btn-cal-radius">
-            <input type="button" value="-" onclick="getdata(this)">
+            <input type="button" value="-" >
           </div>
           <div class="btn-cal btn-cal-radius">
-            <input type="button" value="1" onclick="getdata(this)">
+            <input type="button" value="1" >
           </div>
           <div class="btn-cal btn-cal-radius">
-            <input type="button" value="2" onclick="getdata(this)">
+            <input type="button" value="2" >
           </div>
           <div class="btn-cal btn-cal-radius">
-            <input type="button" value="3" onclick="getdata(this)">
+            <input type="button" value="3" >
           </div>
           <div class="btn-cal btn-cal-radius">
-            <input type="button" value="*" onclick="getdata(this)">
+            <input type="button" value="*" >
           </div>
           <div class="btn-cal btn-cal-radius">
-            <input type="button" value="0" onclick="getdata(this)">
+            <input type="button" value="0" >
           </div>
           <div class="btn-cal btn-cal-radius">
-            <input type="button" value="/" onclick="getdata(this)">
-          </div>
-          <div class="btn-cal btn-cal-radius btn-clean">
-            <input type="button" value="C" class="clean" onclick="clean()">
+            <input type="button" value=".">
           </div>
           <div class="btn-cal btn-cal-radius btn-equal">
-            <input type="button" value="=" class="equal" oneclck="calculate()">
+            <input type="button" value="=">
+          </div>
+          <div class="btn-cal btn-cal-radius">
+            <input type="button" value="/" >
+          </div>
+          <div class="btn-cal btn-cal-radius btn-del">
+            <input type="button" value="DEL">
           </div> 
-
+          <div class="btn-cal btn-cal-radius btn-clean">
+            <input type="button" value="C">
+          </div>
+          <div class="btn-cal btn-cal-radius btn-mod">
+            <input type="button" value="%">
+          </div>
         </div>
-      </div>    
+      </div> 
+    </form>   
     </div>    
 </body>
 </html>
